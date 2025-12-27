@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/art-gallery',
+  basePath: 'https://quantanovo.github.io/art-gallery',
   supportedLocales: {
   "en-US": ""
 },
