@@ -2,7 +2,7 @@ name: Deploy Angular to GitHub Pages
 
 on:
   push:
-    branches: [ master, main ]   # Runs on master or main
+    branches: [ master ]   # Runs whenever you push to master
 
 jobs:
   build-and-deploy:
@@ -25,11 +25,10 @@ jobs:
 
       - name: Build Angular app
         run: |
-          npm run build -- --output-path dist/art-gallery --base-href /art-gallery/
+          npm run build -- --output-path dist/art-gallery --base-href https://quantanovo.github.io/art-gallery/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/art-gallery
-          publish_branch: gh-pages
