@@ -1,0 +1,9 @@
+/* repeating background for entire app */
+main {
+    background-size: 100%;
+    background-image: url('/assets/images/watercolor-paper.png');
+    background-repeat: repeat;       /* repeat in both directions */
+    background-position: 0 0;
+    background-attachment: scroll;   /* scrolls with the page */
+    background-color: #ffffff;       /* fallback color */
+}

@@ -17,19 +17,27 @@ export class App {
       categoryTitle: 'Cityscapes',
       pieces: [
         { id: 1, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape1.jpg' },
-        { id: 2, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape2.jpg' }
+        { id: 2, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape2.jpg' },
+        { id: 3, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape3.jpg' },
+        { id: 4, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape4.jpg' }
       ]
     },
     {
       categoryTitle: 'Landscapes',
       pieces: [
-        { id: 3, title: 'Study 01', imageUrl: 'assets/images/paintings/cityscape3.jpg' }
+        { id: 5, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape2.jpg' },
+        { id: 6, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape4.jpg' },
+        { id: 7, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape1.jpg' },
+        { id: 8, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape3.jpg' }
       ]
     },
     {
       categoryTitle: 'People',
       pieces: [
-        { id: 4, title: 'Study 01', imageUrl: 'assets/images/paintings/cityscape4.jpg' }
+        { id: 9, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape3.jpg' },
+        { id: 10, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape4.jpg' },
+        { id: 11, title: 'The Ocean', imageUrl: 'assets/images/paintings/cityscape1.jpg' },
+        { id: 12, title: 'Mountain Mist', imageUrl: 'assets/images/paintings/cityscape2.jpg' }
       ]
     }
   ];
